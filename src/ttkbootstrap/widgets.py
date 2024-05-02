@@ -7,7 +7,8 @@ from tkinter.ttk import Labelframe, LabelFrame, Menubutton
 from tkinter.ttk import Notebook, OptionMenu, PanedWindow
 from tkinter.ttk import Panedwindow, Progressbar, Radiobutton
 from tkinter.ttk import Scale, Scrollbar, Separator
-from tkinter.ttk import Sizegrip, Spinbox, Treeview
+from tkinter.ttk import Sizegrip, Treeview
+from tkinter import Spinbox
 from ttkbootstrap.constants import *
 
 # date entry imports
@@ -42,7 +43,7 @@ TTK_WIDGETS = (
     ttk.Scrollbar,
     ttk.Separator,
     ttk.Sizegrip,
-    ttk.Spinbox,
+    Spinbox,
     ttk.Treeview,
     ttk.OptionMenu,
 )
