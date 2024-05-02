@@ -84,7 +84,7 @@ setuptools.setup(
     url="https://github.com/israel-dryer/ttkbootstrap",
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
-    install_requires=["pillow==10.0.1"],
+    install_requires=["pillow==8.4.0"],
     python_requires=">=3.7",
     # include_package_data=True,
     # package_data={'ttkbootstrap': ['localization/msgs/*.msg']}
