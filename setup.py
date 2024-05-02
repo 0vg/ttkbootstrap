@@ -85,7 +85,7 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     install_requires=["pillow==8.4.0"],
-    python_requires=">=3.7",
+    python_requires=">=3.6",
     # include_package_data=True,
     # package_data={'ttkbootstrap': ['localization/msgs/*.msg']}
 )
